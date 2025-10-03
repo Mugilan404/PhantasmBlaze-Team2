@@ -100,7 +100,7 @@ header nav a:hover {
 }
 
 .side-menu a:hover {
-  color: #f0a500;
+  color: #cc3b6e;
 }
 
 .side-menu.open {
@@ -201,7 +201,7 @@ footer a:hover {
       right: -100%;
       width: 250px;
       height: 100vh;
-      background: url('1.jpg') no-repeat center center / cover;
+      background: url('schbg.jpeg') no-repeat center center / cover;
       display: flex;
       flex-direction: column;
       align-items: center;
