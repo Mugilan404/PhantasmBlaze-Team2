@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="icon" href="gceblogo.png" type="image/x-icon">
+      <link rel="icon" href="logo.png" type="image/x-icon">
     <title>Schedule</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Caudex&display=swap');
@@ -12,6 +12,7 @@
             margin: 0;
             font-family: Arial, sans-serif;
             background: url('schbg.jpeg') no-repeat center center / cover;
+            background-size: 100% 100%;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -22,7 +23,7 @@
 
         header, footer {
         position: relative;
-        background: url('conbg.jpg') no-repeat center center / cover;
+        background: transparent;
         color: white;
         display: flex;
         justify-content: space-between;
@@ -34,7 +35,7 @@
 
     header {
         font-family: 'Caudex', serif;
-        padding: 0 20px;
+        padding: 0 30px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         position: relative;
         z-index: 1;
@@ -85,7 +86,7 @@
     
     .close-icon {
         display: none;
-        position: fixed;
+        position: relative;
         top: 15px;
         right: 15px;
         cursor: pointer;
@@ -110,7 +111,7 @@
 
 
     header nav a:hover {
-        color: #059AD2;
+        color: #cc3b6e;
     }
 
     footer {
@@ -133,7 +134,7 @@
     }
 
     footer a {
-        color: #059AD2;
+        color: #cc3b6e;
         text-decoration: none;
     }
 
