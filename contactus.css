@@ -108,7 +108,8 @@ header nav a:hover {
 }
 
 footer {
-  position: relative;
+  font-family: 'Caudex', serif;
+  position: fixed;
   bottom: 0;
   width: 100%;
   color: white;
